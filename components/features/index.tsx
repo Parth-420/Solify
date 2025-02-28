@@ -1,4 +1,4 @@
-import { Clock, Shield, Zap } from "lucide-react";
+import { Wallet, Coins, Zap, ArrowUpDown } from "lucide-react";
 
 export default function Features() {
   return (
@@ -10,29 +10,29 @@ export default function Features() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-12">
           <div className="text-center p-6">
             <div className="w-14 h-14 sm:w-16 sm:h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-6">
+              <ArrowUpDown className="w-6 h-6 sm:w-8 sm:h-8" />
+            </div>
+            <h3 className="text-lg sm:text-xl font-bold mb-4">Ultra-Low Fees</h3>
+            <p className="text-gray-300 text-sm sm:text-base">
+              Experience transactions for less than $0.01 on Solana&apos;s network.
+            </p>
+          </div>
+          <div className="text-center p-6">
+            <div className="w-14 h-14 sm:w-16 sm:h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-6">
+              <Wallet className="w-6 h-6 sm:w-8 sm:h-8" />
+            </div>
+            <h3 className="text-lg sm:text-xl font-bold mb-4">Self-Custodial</h3>
+            <p className="text-gray-300 text-sm sm:text-base">
+              Full control of your assets with secure, non-custodial wallets.
+            </p>
+          </div>
+          <div className="text-center p-6">
+            <div className="w-14 h-14 sm:w-16 sm:h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-6">
               <Zap className="w-6 h-6 sm:w-8 sm:h-8" />
             </div>
-            <h3 className="text-lg sm:text-xl font-bold mb-4">Lightning Fast</h3>
+            <h3 className="text-lg sm:text-xl font-bold mb-4">Blazing Fast</h3>
             <p className="text-gray-300 text-sm sm:text-base">
-              SOLIFY leverages Solana&apos;s speed for instant transactions.
-            </p>
-          </div>
-          <div className="text-center p-6">
-            <div className="w-14 h-14 sm:w-16 sm:h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-6">
-              <Shield className="w-6 h-6 sm:w-8 sm:h-8" />
-            </div>
-            <h3 className="text-lg sm:text-xl font-bold mb-4">Bank-Grade Security</h3>
-            <p className="text-gray-300 text-sm sm:text-base">
-              Your assets are protected with military-grade encryption.
-            </p>
-          </div>
-          <div className="text-center p-6">
-            <div className="w-14 h-14 sm:w-16 sm:h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-6">
-              <Clock className="w-6 h-6 sm:w-8 sm:h-8" />
-            </div>
-            <h3 className="text-lg sm:text-xl font-bold mb-4">Always Available</h3>
-            <p className="text-gray-300 text-sm sm:text-base">
-              24/7 support and continuous platform availability.
+              Experience lightning-fast transactions with Solana&apos;s 3,000+ TPS.
             </p>
           </div>
         </div>
