@@ -6,6 +6,13 @@ import { Button } from "../ui/button";
 import Link from "next/link";
 
 export default function Hero() {
+  const scrollToFeatures = () => {
+    const featuresSection = document.querySelector('#features-section');
+    if (featuresSection) {
+      featuresSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div>
       <div className="container mx-auto px-4 sm:px-6 md:px-8 pt-20 pb-16 md:pt-32 md:pb-24">
@@ -33,7 +40,10 @@ export default function Hero() {
                 <ArrowRight className="w-5 h-5" />
               </Button>
             </Link>
-            <button className="w-full sm:w-auto px-6 sm:px-8 py-3 border border-green-400 rounded-lg hover:bg-green-900/50 transition-colors text-base sm:text-lg">
+            <button 
+              onClick={scrollToFeatures}
+              className="w-full sm:w-auto px-6 sm:px-8 py-3 border border-green-400 rounded-lg hover:bg-green-900/50 transition-colors text-base sm:text-lg"
+            >
               Explore Features
             </button>
           </div>

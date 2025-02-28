@@ -3,7 +3,7 @@ import { Clock, Shield, Zap } from "lucide-react";
 export default function Features() {
   return (
     <div>
-      <div className="container mx-auto px-4 sm:px-6 py-16 sm:py-24">
+      <div id="features-section" className="container mx-auto px-4 sm:px-6 py-16 sm:py-24">
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12 sm:mb-16">
           Why Choose SOLIFY
         </h2>
