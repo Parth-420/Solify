@@ -89,7 +89,7 @@ export default function OwnAirdrop({
         </CardFooter>
       </Card>
       <p className="mt-6 text-sm text-gray-600 dark:text-gray-400">
-        Note: Ensure your wallet is connected and you're operating on the testnet for airdrops.
+        Note: Ensure your wallet is connected and you&apos;re operating on the testnet for airdrops.
       </p>
       <p className="text-sm text-gray-600 dark:text-gray-400">
         Start building and experimenting with Solana`&apos;`s powerful ecosystem. 🚀
